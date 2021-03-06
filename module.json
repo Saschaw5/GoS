@@ -1,0 +1,80 @@
+{
+  "name": "gos",
+  "title": "Ghosts of Saltmarsh",
+  "description": "<p>Contains various compendia for importing into your current world for the adventure.</p>",
+	"author": [
+		"WotC",
+		"R20Converter",
+	],
+  "keywords": [
+		"adventure",
+		"campaign",
+		"horror",
+		"lovecraft",
+		"content packs"
+  ],
+	"version": "0.1.2",
+	"coreVersion": "0.6.6",
+	"minimumCoreVersion": "0.5.4",
+	"compatibleCoreVersion": "0.7.0",
+	"system": "dnd5e",
+	"minimumSystemVersion": "0.90",
+	"compatibleSystemVersion": "0.96",
+	"readme": "https://foundry.5e.tools/plutonium/gos/README.md",
+	"bugs": "",
+	"url": "",
+	"changelog": "https://wiki.5e.tools/index.php/Foundry:Changelog_Adventures",
+	"manifest": "https://foundry.5e.tools/plutonium/gos/module.json",
+	"download": "https://foundry.5e.tools/plutonium/gos/gos.zip",
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	],
+  "packs": [
+    {
+      "name": "journal",
+      "label": "Handouts (Ghosts of Saltmarsh)",
+      "path": "packs/journal.db",
+      "module": "gos",
+      "entity": "JournalEntry"
+    },
+    {
+      "name": "actors",
+      "label": "Actors (Ghosts of Saltmarsh)",
+      "path": "packs/actors.db",
+      "module": "gos",
+      "entity": "Actor"
+    },
+    {
+      "name": "items",
+      "label": "Items (Ghosts of Saltmarsh)",
+      "path": "packs/items.db",
+      "module": "gos",
+      "entity": "Item"
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes (Ghosts of Saltmarsh)",
+      "path": "packs/scenes.db",
+      "module": "gos",
+      "entity": "Scene"
+    },
+    {
+      "name": "tables",
+      "label": "Rollable Tables (Ghosts of Saltmarsh)",
+      "path": "packs/tables.db",
+      "module": "gos",
+      "entity": "RollTable"
+    },
+    {
+      "name": "decks",
+      "label": "Decks (Ghosts of Saltmarsh)",
+      "path": "packs/decks.db",
+      "module": "gos",
+      "entity": "RollTable"
+    }
+  ]
+}
